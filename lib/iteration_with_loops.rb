@@ -10,10 +10,5 @@ def join_nested_strings(src)
     end
   end
   
-  str = ""
-  for i in 0...str_arr.length
-    str = str + str_arr[i] + " "
-  end
-    
-  puts str
+  return str_arr.join(" ")
 end
