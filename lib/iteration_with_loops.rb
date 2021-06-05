@@ -5,7 +5,7 @@ def join_nested_strings(src)
   for i in 0...src.length
     for j in 0...src[i].length
       if src[i][j].instance_of? String 
-        str_arr << src[i][j]
+        str_arr.push(src[i][j])
       end
     end
   end
