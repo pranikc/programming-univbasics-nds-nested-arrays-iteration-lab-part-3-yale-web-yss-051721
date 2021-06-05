@@ -12,7 +12,7 @@ def join_nested_strings(src)
   
   str = ""
   for i in 0...str_arr.length
-    str = str_arr[i] + " "
+    str = str + str_arr[i] + " "
     
   return str_arr[:-1]
 end
